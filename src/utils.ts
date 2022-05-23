@@ -10,7 +10,7 @@ export interface generatePDFOptions {
   pdfMargin: puppeteer.PDFOptions['margin'];
   contentSelector: string;
   paginationSelector: string;
-  pdfFormat: puppeteer.PDFFormat;
+  pdfFormat: puppeteer.PaperFormat;
   excludeSelectors: Array<string>;
   cssStyle: string;
   puppeteerArgs: Array<string>;
